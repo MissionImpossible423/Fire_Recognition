@@ -30,3 +30,5 @@ python3 project.py path/to/image/here
 ```
 
 Here is a video demonstration:
+
+https://github.com/user-attachments/assets/b51c9b72-577e-4cb7-a5d1-c946358dca7b
