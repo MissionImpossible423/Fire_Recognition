@@ -4,6 +4,14 @@ Fire_RecognitionAI is an AI model that was developed to detect fire by ret-train
 
 Here is an image of my model successfully identifying a fire:![image](https://github.com/user-attachments/assets/21c7c2f3-b6bf-40b0-b1d9-85c32d8fa7e4)
 
+Here is an image of my model successfully identifying a lack of fire:![image](https://github.com/user-attachments/assets/6043db53-3254-4a34-abd4-68ed22974a67)
+
+## Algorithm
+
+This program uses a pre-trained model using images from an existing dataset. The model was made with the Jetson Inference Library and uses the resnet18 network to process images. 
+
+The model uses a recognition.py and a labels.txt to recognize and classify the images.
+
 ## Installation
 
 This project requires Python and the Jetson Inference library to be installed on your system.
@@ -14,7 +22,7 @@ git clone https://github.com/MissionImpossible423/Fire_Recognition
 ```
 2. Change directories into the repository folder:
 ```sh
-cd SpideyAI
+cd Fire_Reconition
 ```
 3. Run the python script:
 ```sh
